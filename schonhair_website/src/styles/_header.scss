@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background: transparent;
+  color: white;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+  }
+}
+
+.header--scrolled {
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .header__nav a {
+    color: black;
+  }
+}

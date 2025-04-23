@@ -1,0 +1,35 @@
+@use 'variables';
+@use 'header';
+@use 'heroSection';
+@use 'aboutSection';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+section {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid #ddd;
+  justify-content: center;
+  display: flex;
+}
+
+header, footer {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  text-align: center;
+  font-family: variables.$primary-font-family;
+}
