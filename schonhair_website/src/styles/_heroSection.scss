@@ -1,19 +1,21 @@
-@use './variables' as *;
+@use "./variables" as *;
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   font-family: $primary-font-family;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('/images/image_4.jpg');
+    background-image: url("/images/image_4.jpg");
     background-position: center;
     background-size: cover;
     filter: blur(6px);
@@ -40,8 +42,11 @@
   max-width: 800px;
   z-index: 3;
   position: relative;
-  margin-top: 80px;
-  
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .hero__headline {

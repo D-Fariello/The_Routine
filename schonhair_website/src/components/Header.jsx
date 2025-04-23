@@ -16,8 +16,8 @@ const Header = () => {
       <div className="header__logo">Schönhair</div>
       <nav className="header__nav">
         <a href="#hero">Home</a>
-        <a href="#about">Chi Siamo</a>
         <a href="#services">Servizi</a>
+        <a href="#about">Chi Siamo</a>
         <a href="#contact">Contatti</a>
       </nav>
     </header>
