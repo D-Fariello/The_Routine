@@ -7,6 +7,12 @@ import Footer from "./components/Footer";
 import ContactSection from "./components/ContactSection";
 
 const App = () => {
+  useEffect(() => {
+    if (!window.location.hash && window.location.pathname !== "/") {
+      window.location.replace("/");
+    }
+  }, []);
+
   return (
     <div className="app-container">
       <Header />

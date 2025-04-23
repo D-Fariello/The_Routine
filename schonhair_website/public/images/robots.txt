@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://schonhair.vercel.app/sitemap.xml
