@@ -4,14 +4,14 @@
       "name": "Filomena",
       "role": "Proprietaria",
       "description": "Appassionata di stile e commercio. Ha fondato Schönhair per unire passione, creatività e attenzione al cliente.",
-      "image": "/images/image_8.jpg"
+      "image": "/images/image_8.avif"
     },
     {
       "id": 2,
       "name": "Emma",
       "role": "Parrucchiera",
       "description": "Parrucchiera con oltre 15 anni di esperienza, esperta in tagli su misura, colore e trattamenti innovativi.",
-      "image": "/images/image_9.jpg"
+      "image": "/images/image_9.avif"
     }
   ]
   
