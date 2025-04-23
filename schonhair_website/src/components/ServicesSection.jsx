@@ -1,9 +1,12 @@
-import React from "react";
-import img1 from "/images/image_1.jpg";
-import img2 from "/images/image_2.jpg";
-import img3 from "/images/image_7.jpg";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ServicesSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <section id="services" className="services">
       <div className="services__text">
@@ -15,16 +18,16 @@ const ServicesSection = () => {
       </div>
 
       <div className="services__cards">
-        <div className="services__card">
-          <img src={img1} alt="Custom Color" />
+        <div className="services__card" data-aos="zoom-in">
+          <img src="/images/image_1.jpg" alt="Custom Color" />
           <div className="services__label">Colorazioni Personalizzate</div>
         </div>
-        <div className="services__card">
-          <img src={img2} alt="Hair Cut & Styling" />
+        <div className="services__card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="/images/image_2.jpg" alt="Hair Cut & Styling" />
           <div className="services__label">Taglio e Styling</div>
         </div>
-        <div className="services__card">
-          <img src={img3} alt="Extensions" />
+        <div className="services__card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/images/image_7.jpg" alt="Extensions" />
           <div className="services__label">Extension</div>
         </div>
       </div>
