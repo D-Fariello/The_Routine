@@ -17,6 +17,8 @@
   &__logo {
     font-size: 1.5rem;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
   }
 
   &__nav a {
@@ -31,6 +33,10 @@
   background-color: white;
   color: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .header__logo {
+    color: black;
+  }
 
   .header__nav a {
     color: black;

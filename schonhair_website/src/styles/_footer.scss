@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 4rem 2rem 2rem;
+  font-family: $primary-font-family;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #444;
+  }
+
+  &__column {
+    flex: 1 1 250px;
+
+    h4 {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      color: $primary-color;
+    }
+
+    p, a, li {
+      color: #ccc;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  }
+
+  &__bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #888;
+  }
+}
