@@ -1,17 +1,24 @@
 [
     {
       "id": 1,
-      "name": "Filomena",
-      "role": "Proprietaria",
-      "description": "Appassionata di stile e commercio. Ha fondato Schönhair per unire passione, creatività e attenzione al cliente.",
-      "image": "/images/084-foto.avif"
+      "name": "Filomena Giannola",
+      "role": "Titolare",
+      "description": "Appassionata di stile e commercio. Ha fondato Schönhair Beauty per unire passione, creatività e attenzione al cliente.",
+      "image": "/images/048-foto.avif"
     },
     {
       "id": 2,
-      "name": "Emma",
+      "name": "Enikö",
       "role": "Parrucchiera",
-      "description": "Parrucchiera con oltre 15 anni di esperienza, esperta in tagli su misura, colore e trattamenti innovativi.",
-      "image": "/images/076-foto.avif"
+      "description": "Parrucchiera con tanti anni di esperienza, esperta in tagli su misura uomo e donna, colore e trattamenti innovativi.",
+      "image": "/images/037-foto.avif"
+    },
+    {
+      "id": 2,
+      "name": "Quedes",
+      "role": "Dermopigmentista",
+      "description": "Professionista specializzata in tecniche avanzate di micropigmentazione estetica per valorizzare il viso e correggere piccole imperfezioni.",
+      "image": "/images/073-foto.avif"
     }
   ]
   

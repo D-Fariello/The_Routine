@@ -17,25 +17,32 @@ const ContactSection = () => {
       <div className="contact__info">
         <div className="contact__item" data-aos="zoom-in" data-aos-delay="200">
           <h3>Indirizzo</h3>
-          <p>Via Bellezza 23, 20100 Milano</p>
+          <p>
+            Via Ans Wasserman 14, <br />
+            39039 Villabassa Niederdof
+          </p>
         </div>
         <div className="contact__item" data-aos="zoom-in" data-aos-delay="300">
           <h3>Telefono</h3>
           <p>
-            <a href="tel:+390212345678">+39 02 123 456 78</a>
+            <a href="tel:+390474615718">+39 04 74 61 57 18</a>
+            <br />
+            <a href="tel:+390474615718">+39 377 30 62 677</a>
           </p>
         </div>
         <div className="contact__item" data-aos="zoom-in" data-aos-delay="400">
           <h3>Email</h3>
           <p>
-            <a href="mailto:info@schonhair.it">info@schonhair.it</a>
+            <a href="mailto:schonhairvillabassa@gmail.com">
+              schonhairvillabassa@gmail.com
+            </a>
           </p>
         </div>
       </div>
 
       <div className="contact__cta" data-aos="fade-up" data-aos-delay="500">
         <a
-          href="https://wa.me/393331112222"
+          href="https://wa.me/393773062677"
           target="_blank"
           rel="noreferrer"
           className="contact__button"
