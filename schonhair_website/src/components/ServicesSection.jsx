@@ -28,7 +28,10 @@ const ServicesSection = () => {
         </div>
         <div className="services__card" data-aos="zoom-in" data-aos-delay="200">
           <img src="/images/053-foto.avif" alt="Extensions" />
-          <div className="services__label">Extension</div>
+          <div className="services__label">
+            Extension
+            <br /> Su richiesta anticipata
+          </div>
         </div>
         <div className="services__card" data-aos="zoom-in" data-aos-delay="200">
           <img src="/images/092-foto-uomo.avif" alt="Extensions" />
@@ -36,6 +39,10 @@ const ServicesSection = () => {
             Uomo <br />
             Barba e Capelli
           </div>
+        </div>
+        <div className="services__card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/images/victor-foto.avif" alt="Dermopigmentazione" />
+          <div className="services__label">Dermopigmentazione</div>
         </div>
       </div>
 
