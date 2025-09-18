@@ -44,11 +44,13 @@ const Footer = () => {
           <h4>Seguici</h4>
           <ul className="footer__social">
             <li>
-              <a href="#">Instagram</a>
+              <a href="https://www.instagram.com/schonhairbeauty?igsh=anVpYnpueHBsZmJ0">
+                Instagram
+              </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">Facebook</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
