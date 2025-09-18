@@ -5,17 +5,20 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__top">
         <div className="footer__column">
-          <h4>Schönhair</h4>
+          <h4>Schönhair Beauty</h4>
           <p>
-            Via Bellezza 23
+            Via Hans Wasserman 14, <br />
+            39039 Villabassa Niederdof
+          </p>
+          <p>
+            <a href="tel:+390474615718">+39 04 74 61 57 18</a>
             <br />
-            20100 Milano
+            <a href="tel:+390474615718">+39 377 30 62 677</a>
           </p>
           <p>
-            <a href="tel:+390212345678">+39 02 123 456 78</a>
-          </p>
-          <p>
-            <a href="mailto:info@schonhair.it">info@schonhair.it</a>
+            <a href="mailto:schonhairvillabassa@gmail.com">
+              schonhairvillabassa@gmail.com
+            </a>
           </p>
         </div>
 
@@ -52,7 +55,7 @@ const Footer = () => {
 
       <div className="footer__bottom">
         <p>
-          &copy; {new Date().getFullYear()} Schönhair – Tutti i diritti
+          &copy; {new Date().getFullYear()} Schönhair Beauty – Tutti i diritti
           riservati
         </p>
       </div>

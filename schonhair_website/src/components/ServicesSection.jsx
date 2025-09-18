@@ -19,7 +19,7 @@ const ServicesSection = () => {
 
       <div className="services__cards">
         <div className="services__card" data-aos="zoom-in">
-          <img src="/images/055-foto.avif" alt="Custom Color" />
+          <img src="/images/057-foto.avif" alt="Custom Color" />
           <div className="services__label">Colorazioni Personalizzate</div>
         </div>
         <div className="services__card" data-aos="zoom-in" data-aos-delay="100">

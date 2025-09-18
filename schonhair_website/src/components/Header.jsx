@@ -33,6 +33,9 @@ const Header = () => {
         <a href="#services" onClick={() => setMenuOpen(false)}>
           Servizi
         </a>
+        <a href="#carousel" onClick={() => setMenuOpen(false)}>
+          Galleria
+        </a>
         <a href="#about" onClick={() => setMenuOpen(false)}>
           Chi Siamo
         </a>

@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import Footer from "./components/Footer";
 import ContactSection from "./components/ContactSection";
+import CarouselSection from "./components/CarouselSection";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <CarouselSection />
       <ContactSection />
       <Footer />
     </div>

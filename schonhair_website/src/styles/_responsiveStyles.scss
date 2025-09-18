@@ -84,6 +84,14 @@ $mobile-breakpoint: 768px;
     max-width: 100%;
   }
 
+  // ✅ CAROUSEL
+
+  .carousel .carousel__image {
+    width: 80%;
+    height: auto;
+    max-height: 60vh;
+  }
+
   // ✅ TEAM
   .team__members {
     flex-direction: column;
