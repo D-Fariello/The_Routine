@@ -19,8 +19,8 @@ const AboutSection = () => {
       <div className="about__content">
         <h2>La nostra filosofia</h2>
         <p>
-          In Schönhair crediamo che la bellezza sia un riflesso della propria
-          identità. Il nostro salone nasce per offrire un’esperienza
+          In Schönhair Beauty crediamo che la bellezza sia un riflesso della
+          propria identità. Il nostro salone nasce per offrire un’esperienza
           personalizzata, dove ogni trattamento è pensato per far emergere la
           tua unicità.
         </p>

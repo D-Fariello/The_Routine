@@ -8,7 +8,8 @@ const HeroSection = () => {
           Tagli su misura per la tua bellezza autentica
         </h1>
         <p className="hero__subheadline">
-          Schönhair è il tuo salone di fiducia per un look che parla di te.
+          Schönhair Beauty è il tuo salone di fiducia per un look che parla di
+          te.
           <br />
           Perché il tuo stile racconta chi sei, anche senza dire una parola.
         </p>

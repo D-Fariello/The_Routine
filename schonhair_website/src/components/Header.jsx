@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? "header--scrolled" : ""}`}>
       <a href="#hero" className="header__logo">
-        Schönhair
+        Schönhair Beauty
       </a>
 
       <button className="header__burger" onClick={toggleMenu}>
