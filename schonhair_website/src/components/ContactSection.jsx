@@ -18,7 +18,7 @@ const ContactSection = () => {
         <div className="contact__item" data-aos="zoom-in" data-aos-delay="200">
           <h3>Indirizzo</h3>
           <p>
-            Via Ans Wasserman 14, <br />
+            Via Hans Wasserman 14, <br />
             39039 Villabassa Niederdof
           </p>
         </div>
