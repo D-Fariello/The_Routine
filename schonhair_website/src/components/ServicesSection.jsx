@@ -41,7 +41,7 @@ const ServicesSection = () => {
           </div>
         </div>
         <div className="services__card" data-aos="zoom-in" data-aos-delay="200">
-          <img src="/images/victor-foto.avif" alt="Dermopigmentazione" />
+          <img src="/images/000-foto.avif" alt="Dermopigmentazione" />
           <div className="services__label">Dermopigmentazione</div>
         </div>
       </div>
