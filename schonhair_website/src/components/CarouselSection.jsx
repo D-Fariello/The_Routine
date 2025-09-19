@@ -21,7 +21,7 @@ const CarouselSection = () => {
 
   return (
     <section id="carousel" className="carousel">
-      <h2 className="carousel__title">Galleria Schonhair Beauty</h2>
+      <h2 className="carousel__title">Galleria Schönhair Beauty</h2>
 
       <div className="carousel__frame">
         <button onClick={prev}>‹</button>
