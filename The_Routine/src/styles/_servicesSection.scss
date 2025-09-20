@@ -1,0 +1,102 @@
+@use './variables' as *;
+
+.episodes {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.episodes__text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.episodes__text p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #ccc;
+}
+
+.episodes__cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.episodes__card {
+  position: relative;
+  overflow: hidden;
+  max-width: 320px;
+  flex: 1 1 300px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  background-color: #2a2a2a;
+}
+
+.episodes__card:hover {
+  transform: translateY(-5px);
+}
+
+.episodes__card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.episodes__card:hover img {
+  transform: scale(1.05);
+}
+
+.episodes__overlay {
+  padding: 1rem;
+  text-align: left;
+}
+
+.episodes__overlay h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.episodes__overlay p {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.episodes__meta {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.episodes__button {
+  margin-top: 2rem;
+}
+
+.episodes__cta {
+  padding: 0.75rem 2rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 600;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.episodes__cta:hover {
+  background: white;
+  color: black;
+}

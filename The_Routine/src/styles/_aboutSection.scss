@@ -1,0 +1,150 @@
+@use './variables' as *;
+
+// colore principale aggiornato
+$primary: #4a6370;
+
+.about {
+  background-color: #fafafa;
+  color: #444;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mission */
+.about__content {
+  max-width: 750px;
+  margin-bottom: 3rem;
+}
+.about__content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #222;
+}
+.about__content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Valori */
+.about__values {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.about__value {
+  background: #fff;
+  padding: 2rem;
+  max-width: 300px;
+  flex: 1 1 260px;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about__value:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.about__value h3 {
+  margin-bottom: 0.5rem;
+  color: $primary;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.about__value p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Plateformes */
+.about__platforms {
+  margin: 3rem 0 1rem;
+}
+.about__platforms h3 {
+  margin-bottom: .8rem;
+  color: #222;
+  font-weight: 700;
+}
+.about__platformButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about__platformBtn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.about__platformBtn--spotify { background: #1db954; }
+.about__platformBtn--apple   { background: #d63384; }
+.about__platformBtn--youtube { background: #ff0000; }
+.about__platformBtn:hover { filter: brightness(1.15); }
+
+/* CTA Cards */
+.about__ctaCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 2.5rem auto 0;
+}
+.about__ctaCard {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: start;
+  gap: .9rem;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.04);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.about__ctaCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.07);
+}
+.about__ctaIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  background: lighten($primary, 40%);
+  color: $primary;
+}
+.about__ctaBody h4 {
+  margin: 0 0 .25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #222;
+}
+.about__ctaBody p {
+  margin: 0 0 .6rem;
+  color: #555;
+  line-height: 1.6;
+}
+.about__link {
+  color: $primary;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .2s ease, color .2s ease;
+}
+.about__link:hover {
+  color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}

@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Épisode 1 — Lancer sa routine",
+      "description": "Par où commencer ? Conseils simples pour structurer ta journée et tenir sur la durée.",
+      "youtubeId": "XXXXXXXXXXX",
+      "publishedAt": "2025-01-15",
+      "duration": "24:18",
+      "type": "latest",
+      "tags": ["routine", "motivation", "bien-être"]
+    },
+    {
+      "id": 2,
+      "title": "Épisode 2 — Énergie & récupération",
+      "description": "Sommeil, respiration et micro-pauses : construire une énergie durable.",
+      "youtubeId": "YYYYYYYYYYY",
+      "publishedAt": "2025-02-01",
+      "duration": "31:05",
+      "type": "popular",
+      "tags": ["sommeil", "récupération", "équilibre"]
+    },
+    {
+      "id": 3,
+      "title": "Épisode 3 — Minimalisme dans l’entraînement",
+      "description": "Faire moins mais mieux : l’art d’éliminer le superflu pour progresser.",
+      "youtubeId": "ZZZZZZZZZZZ",
+      "publishedAt": "2025-02-20",
+      "duration": "27:42",
+      "type": "latest",
+      "tags": ["sport", "habitudes", "focus"]
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Dalila",
+    "role": "Créatrice & hôte du podcast",
+    "description": "Avec The Routine, je veux montrer que les petites habitudes façonnent les grandes transformations. Chaque épisode est une invitation à réfléchir, à s’inspirer et à avancer vers une version plus équilibrée de soi-même — entre sport, bien-être et art de vivre.",
+    "image": "/images/foto-03.avif"
+  },
+  {
+    "id": 2,
+    "name": "The Routine",
+    "role": "Podcast",
+    "description": "Un espace de partage autour du sport, du bien-être et du lifestyle. À travers des interviews, des conseils et des discussions inspirantes, The Routine aide à bâtir une vie plus équilibrée et motivante.",
+    "image": "/images/foto-04.avif"
+  }
+]
