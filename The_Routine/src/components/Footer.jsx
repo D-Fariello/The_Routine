@@ -4,20 +4,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__top">
+        {/* Colonne */}
         <div className="footer__column">
-          <h4>Schönhair Beauty</h4>
+          <h4>The Routine Podcast</h4>
           <p>
-            Via Hans Wasserman 14, <br />
-            39039 Villabassa Niederdof
+            Nice, France <br />
+            (Studio & en ligne)
           </p>
           <p>
-            <a href="tel:+390474615718">+39 04 74 61 57 18</a>
-            <br />
-            <a href="tel:+390474615718">+39 377 30 62 677</a>
-          </p>
-          <p>
-            <a href="mailto:schonhairvillabassa@gmail.com">
-              schonhairvillabassa@gmail.com
+            <a href="mailto:contact@theroutinehq.com">
+              contact@theroutinehq.com
             </a>
           </p>
         </div>
@@ -26,39 +22,54 @@ const Footer = () => {
           <h4>Menu</h4>
           <ul>
             <li>
-              <a href="#hero">Home</a>
+              <a href="#hero">Accueil</a>
             </li>
             <li>
-              <a href="#services">Servizi</a>
+              <a href="#about">À propos</a>
             </li>
             <li>
-              <a href="#about">Chi siamo</a>
-            </li>
-            <li>
-              <a href="#contact">Contatti</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
 
         <div className="footer__column">
-          <h4>Seguici</h4>
+          <h4>Suivez-nous</h4>
           <ul className="footer__social">
             <li>
-              <a href="https://www.instagram.com/schonhairbeauty?igsh=anVpYnpueHBsZmJ0">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Instagram
               </a>
             </li>
-            {/* <li>
-              <a href="#">Facebook</a>
-            </li> */}
+            <li>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://open.spotify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Spotify
+              </a>
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="footer__bottom">
         <p>
-          &copy; {new Date().getFullYear()} Schönhair Beauty – Tutti i diritti
-          riservati
+          &copy; {new Date().getFullYear()} The Routine – Tous droits réservés
         </p>
       </div>
     </footer>

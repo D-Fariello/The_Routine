@@ -61,42 +61,106 @@ $mobile-breakpoint: 768px;
     text-align: center;
   }
 
-  // ✅ ABOUT
-  .about__values {
-    flex-direction: column;
-    align-items: center;
+  // ✅ CONTACT 
+  .contact {
+    padding: 2.5rem 1rem 3rem;
+    text-align: center;
   }
 
-  .about__value {
-    width: 90%;
-    max-width: 260px;
+  .contact__strip {
+    gap: .5rem;
+    justify-content: center;
+  }
+
+  .pill {
+    font-size: .95rem;
+    padding: .5rem 1rem;
+    width: auto;
+  }
+
+  .contact__intro {
     margin-bottom: 1.5rem;
+
+    h2 { font-size: 1.6rem; }
+    p  { font-size: .98rem; line-height: 1.6; }
   }
 
-  // ✅ SERVICES
-  .services__cards {
+  .contact__blocks {
+    grid-template-columns: 1fr;
+    gap: .85rem;
+    margin: 1rem auto 1.25rem;
+  }
+
+  .contact__block {
+    padding: 1rem;
+    h3 { font-size: 1.05rem; }
+    p  { font-size: .95rem; line-height: 1.55; }
+  }
+
+  .contact__icon { width: 34px; height: 34px; font-size: 1rem; }
+
+  .contact__buttons { gap: .6rem; }
+  .contact .btn { width: 100%; text-align: center; }
+
+  // ✅ ABOUT 
+  .about { padding: 3rem 1rem; }
+
+  .about__host,
+  .about__podcast {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about__hostPhotoWrap,
+  .about__podcastLogoWrap {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .about__hostName { font-size: 1.15rem; }
+  .about__podcastTitle { font-size: 1.12rem; }
+  .about__hostRole,
+  .about__hostBio,
+  .about__podcastDesc { font-size: .98rem; }
+
+  .about__platforms { margin: 2rem 0 .75rem; }
+  .about__platformButtons { gap: .65rem; }
+  .about__platformBtn { width: 100%; text-align: center; }
+
+  // ✅ EPISODES 
+  .episodes {
+    padding: 3.5rem 1rem;
+    text-align: center;
+  }
+
+  .episodes__text h2 { font-size: 1.6rem; }
+  .episodes__text p  { font-size: 1rem; margin-bottom: 2rem; }
+
+  .episodes__cards {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 
-  .services__card {
-    width: 60%;
-    max-width: 100%;
+  .episodes__card {
+    max-width: 420px;
+    width: 100%;
+    flex: 0 1 auto;
   }
 
+  .episodes__card img { height: 160px; }
 
-  // ✅ CONTACT
-  .contact__info {
-    flex-direction: column;
-    align-items: center;
-  }
+  .episodes__overlay { padding: .9rem; }
+  .episodes__overlay h3 { font-size: 1.05rem; }
+  .episodes__overlay p  { font-size: .95rem; }
+  .episodes__meta       { font-size: .85rem; }
 
-  .contact__item {
-    width: 90%;
-    max-width: 360px;
-    max-height: 150px;
-    margin-bottom: 1.5rem;
-  }
+  .episodes__button { margin-top: 1.25rem; }
+  .episodes__cta { width: 100%; }
+
 
   // ✅ FOOTER
   .footer__top {
