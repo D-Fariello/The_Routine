@@ -30,14 +30,14 @@ const Header = () => {
         <a href="#hero" onClick={() => setMenuOpen(false)}>
           Accueil
         </a>
-        <a href="#services" onClick={() => setMenuOpen(false)}>
-          Services
+        <a href="#about" onClick={() => setMenuOpen(false)}>
+          À propos
+        </a>
+        <a href="#episodes" onClick={() => setMenuOpen(false)}>
+          Podcast
         </a>
         <a href="#reels" onClick={() => setMenuOpen(false)}>
           Reels
-        </a>
-        <a href="#about" onClick={() => setMenuOpen(false)}>
-          À propos
         </a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>
           Contact
