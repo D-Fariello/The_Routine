@@ -9,6 +9,9 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="about">
+      <h2 className="about__title" data-aos="fade-up">
+        À propos
+      </h2>
       {/* Host */}
       <section className="about__host" data-aos="fade-up">
         <div className="about__hostPhotoWrap">
