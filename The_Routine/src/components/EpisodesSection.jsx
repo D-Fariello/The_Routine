@@ -90,7 +90,7 @@ const EpisodesSection = ({ variant = "all", limit }) => {
 
       <div className="episodes__button">
         <a
-          href="https://www.youtube.com/"
+          href="https://www.youtube.com/@TheRoutinePodcast"
           className="episodes__cta"
           target="_blank"
           rel="noopener noreferrer"
